@@ -33,7 +33,7 @@ along with this program.  If not, see <https://www.gnu.org/licenses/>.
 const action_t actionmaps[][MATRIX_ROWS][MATRIX_COLS] = { 
 	[0] = ACTIONMAP(
 		ESC, 1, 2, 3, 4, 5, 6, 7, 8, 9, 0, MINS, EQL, BSPC, HOME, END, 
-		TAB, Q, W, E, R, T, Y, U, I, O, P, LBRC, RBRC, BSLS, INT, PGUP, 
+		TAB, Q, W, E, R, T, Y, U, I, O, P, LBRC, RBRC, BSLS, INS, PGUP, 
 		CAPS, A, S, D, F, G, H, J, K, L, SCLN, QUOT, ENT, DEL, PGDN, 
 		LSFT, Z, X, C, V, B, N, M, COMM, DOT, SLSH, RSFT, UP, 
 		LCTL, LGUI, LALT, SPC, RALT, FN1, RCTL, LEFT, DOWN, RGHT),
