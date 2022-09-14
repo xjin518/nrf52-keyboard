@@ -72,7 +72,7 @@ along with this program.  If not, see <http://www.gnu.org/licenses/>.
 #define LED_CAPS 28
 
 // ws2812 RGB 配置
-#define RGB_DI_PIN 2, 30, 28, 27
+#define RGB_DI_PIN 2
 #define RGBLED_NUM 70
 #define RGBLIGHT_ANIMATIONS
 #define RGB_PWR_PIN 11 // P-mos
