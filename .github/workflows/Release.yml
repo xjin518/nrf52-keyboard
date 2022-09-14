@@ -124,14 +124,4 @@ jobs:
       run:  |
         cd ${{ github.workspace }}/cmsis-dap-flasher
         zip -r CMSIS-DAP线刷包${{ env.BUILDTIME }}-${{ env.VERSION }}-SDK17.1.zip *
-    # 通过FTP上传到个人HOST
-    - name: 📂 FTP upload CMSIS-DAP
-      uses: SamKirkland/FTP-Deploy-Action@4.1.0
-      with:
-        server: ${{ secrets.HOST }}
-        username: ${{ secrets.USERNAME }}
-        password: ${{ secrets.PASSWORD }}
-        local-dir: ${{ github.workspace }}/cmsis-dap-flasher/
-        server-dir: /htdocs/down/Glab3.0/
-        state-name: ../.cmsis-dap-flasher-glab3.0-sync-state.json
-        exclude: "[*/**, *.bat, .gitignore]"
+    
